@@ -1,0 +1,267 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header{
+  position: relative;
+}
+.menu-bar{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: white;
+}
+
+.nav-left{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-right{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left ul{
+ margin-left: 100px;
+ position: relative;
+}
+
+.nav-left .img-logo{
+  position: absolute;
+  top: -3px;
+  
+}
+.sec-child{
+  margin-left: 80px;
+}
+
+
+.nav-left ul li{
+  display: inline;
+  margin-right: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.nav-left ul li a{
+  text-decoration: none;
+  color: rgb(148, 145, 145);
+}
+
+
+.nav-left ul li img{
+  width: 20px;
+}
+
+
+ .lista-4-elementi .list-4-el li{
+     display: inline;
+     margin-right: 50px;
+  }
+  .lista-4-elementi .list-4-el li a{
+      text-decoration: none;
+      color: rgb(148, 145, 145);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+  }
+
+ .list-btn li{
+   display: inline;
+  }
+
+
+  .bottons{
+      height: 100%;
+      
+  }
+
+  .list-btn{
+      
+      height: 100%;
+      width: 300px;
+      display: flex;
+      align-items: center;
+      
+  }
+
+  .list-btn li button{
+      padding: 15px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      border-radius: 10px;
+      cursor: pointer;
+      border: none;
+  }
+  .get-the-app{
+      margin-left: 15px;
+      color: white;
+      background-color: black;
+  }
+ 
+     
+
+   .finestra-features{
+       width: 700px;
+       height: 300px;
+       background-color: white;
+       box-shadow: 2px 2px 8px 4px rgba(161, 161, 161, 0.5);
+       display: none;
+       position: fixed;
+       top: 80px;
+       left: 600px;
+       border-radius: 8px;
+   }
+
+   .finestra-features.active{
+      display: flex;
+      justify-content: space-around;
+   }
+
+   .finestra-features .account-list{
+       margin-left: 8px;
+       
+      
+   }
+
+   .finestra-features ul li{
+       list-style: none;
+       color: rgb(192, 189, 189);
+       font-family: 'Montserrat', sans-serif;
+       font-weight: 600;
+       font-size: 13px;
+       margin-top: 30px;
+       
+   }
+
+   .account-list .first-element,
+   .wealt-list .first-element,
+   .payments-list .first-element,
+   .extras-list .first-element{
+       font-size: 12px;
+   }
+   .account-list .first-element .fa-home,
+   .wealt-list .first-element .fa-chart-bar,
+   .payments-list .first-element .fa-arrow-alt-circle-down,
+   .extras-list .first-element .fa-star{
+       font-size: 20px;
+   }
+
+   .finestra-features ul li a{
+       text-decoration: none;
+       color: rgb(167, 164, 164);
+       
+   }
+
+
+   .finestra-plans{
+       width: 200px;
+       height: 230px;
+       position: fixed;
+       top: 80px;
+       left: 820px;
+       background-color: white;
+       box-shadow: 2px 2px 8px 4px rgba(161, 161, 161, 0.5);
+       border-radius: 8px;
+       display: none;
+   }
+
+   .finestra-plans.active{
+       display: inline-block;
+   }
+   .finestra-plans ul{
+       margin-left: 8px;
+       
+   }
+
+   .finestra-plans ul li{
+       list-style: none;
+       font-family: 'Montserrat', sans-serif;
+       font-weight: 500;
+       margin-top: 20px;
+   }
+   .finestra-plans ul li a{
+       text-decoration: none;
+       color: rgb(167, 164, 164);
+   }
+   
+
+   .finestra-about-us{
+       width: 200px;
+       height: 420px;
+       background-color: white;
+       box-shadow: 2px 2px 8px 4px rgba(161, 161, 161, 0.5);
+       border-radius: 8px;
+       position: fixed;
+       top: 80px;
+       left: 940px;
+       display: none;
+   }
+   .finestra-about-us.active{
+       display: inline-block;
+   }
+   .finestra-about-us ul{
+       margin-left: 8px;
+   }
+
+   .finestra-about-us ul li{
+      list-style: none;
+      margin-top: 20px;
+      font-family: 'Montserrat', sans-serif;
+       font-weight: 500;
+      
+   }
+   .finestra-about-us ul li a{
+       text-decoration: none;
+       color: rgb(167, 164, 164);
+   }
+  
+
+
+  
+   .finestra-help{
+      width: 200px;
+      height: 250px;
+      background-color: white;
+      box-shadow: 2px 2px 8px 4px rgba(161, 161, 161, 0.5);
+      border-radius: 8px;
+      position: fixed;
+      top: 80px;
+      left: 1045px;
+      display: none;
+   }
+   .finestra-help.active{
+       display: inline-block;
+   }
+   
+   .finestra-help ul{
+       margin-left: 8px;
+   }
+   .finestra-help ul li{
+      list-style: none;
+      margin-top: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+   }
+   .finestra-help ul li a{
+      text-decoration: none;
+      color: rgb(167, 164, 164);
+   }
+
+
+
+
+   .finestra-features ul li a:hover,
+   .finestra-help ul li a:hover,
+   .finestra-plans ul li a:hover,
+   .finestra-about-us ul li a:hover{
+       color: black;
+   }
